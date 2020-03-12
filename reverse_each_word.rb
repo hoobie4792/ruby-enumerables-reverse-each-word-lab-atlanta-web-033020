@@ -3,7 +3,7 @@ def reverse_each_word(sentence)
   result = []
   
   result = array.each do |word|
-    puts word.reverse
+    word.reverse
   end
   
   return result.join(' ')
