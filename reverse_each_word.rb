@@ -2,8 +2,8 @@ def reverse_each_word(sentence)
   array = sentence.split(' ')
   result = []
   
-  result = array.each do |word|
-    word.reverse
+ array.each do |word|
+    result.push(word.reverse)
   end
   
   return result.join(' ')
