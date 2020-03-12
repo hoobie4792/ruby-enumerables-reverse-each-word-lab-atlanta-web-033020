@@ -4,5 +4,5 @@ def reverse_each_word(s)
     str.reverse
   end
   
-  return
+  return array
 end
